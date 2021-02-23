@@ -1,12 +1,14 @@
 ﻿using System;
 
-namespace Modul_2_task_2
+namespace Modul_2_Task_2
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            Starter starter = new Starter();
+            starter.Run();
+            Console.ReadKey();
         }
     }
 }
